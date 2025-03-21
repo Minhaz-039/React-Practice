@@ -12,6 +12,7 @@ import Parent from "./StatePrac/Parent";
 import Prac from "./StatePrac/Prac";
 import UltimatePrac from "./StatePrac/UltimatePrac";
 import UseState from "./StatePrac/UseState";
+import Effect from "./useEffect/Effect";
 <link href="/src/index.css" rel="stylesheet"></link>;
 
 const App = () => {
@@ -30,6 +31,8 @@ const App = () => {
       <UltimatePrac></UltimatePrac>
       <hr />
       <CopyText></CopyText>
+      <hr />
+      <Effect></Effect>
       <Footer></Footer>
       <Greet />
     </div>
