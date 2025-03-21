@@ -1,0 +1,17 @@
+# npm create vite@latest  => For creating a vite application
+
+# Component name should be uppercase 
+
+# You can write expressions inside curly braces => {}  ; Like <p>2+2</p>  will show 2+2   , but {2+2}  will show 4
+
+# Learn how to map items
+
+# Conditional Rendering
+
+# OnClick , OnMouseMove , OnCopy
+
+# States , Hooks 
+
+# Portal
+
+# UseEffect
