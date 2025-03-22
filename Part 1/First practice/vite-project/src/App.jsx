@@ -6,6 +6,8 @@ import Information from "./components/Information";
 import MainComponent from "./components/MainComponent";
 import OnClick_MouceMove_Copy from "./components/OnClick_MouceMove_Copy";
 import Temparature from "./components/Temparature";
+import Provider from "./ContextApi/Provider";
+import Provider2 from "./ContextApi/Provider2";
 import CardInformation from "./InfoFiles/UserInfo";
 import CopyText from "./Portal/CopyText";
 import File1 from "./PropDrilling/File1";
@@ -37,6 +39,10 @@ const App = () => {
       <hr />
       <hr />
       <File1 name="Minhaz"></File1>
+      <hr />
+      <Provider></Provider>
+      <hr />
+      <Provider2></Provider2>
       <Footer></Footer>
       <Greet />
     </div>
