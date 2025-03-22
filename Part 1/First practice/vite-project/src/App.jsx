@@ -8,6 +8,7 @@ import OnClick_MouceMove_Copy from "./components/OnClick_MouceMove_Copy";
 import Temparature from "./components/Temparature";
 import CardInformation from "./InfoFiles/UserInfo";
 import CopyText from "./Portal/CopyText";
+import File1 from "./PropDrilling/File1";
 import Parent from "./StatePrac/Parent";
 import Prac from "./StatePrac/Prac";
 import UltimatePrac from "./StatePrac/UltimatePrac";
@@ -33,6 +34,9 @@ const App = () => {
       <CopyText></CopyText>
       <hr />
       <Effect></Effect>
+      <hr />
+      <hr />
+      <File1 name="Minhaz"></File1>
       <Footer></Footer>
       <Greet />
     </div>
