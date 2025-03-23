@@ -8,6 +8,7 @@ import OnClick_MouceMove_Copy from "./components/OnClick_MouceMove_Copy";
 import Temparature from "./components/Temparature";
 import Provider from "./ContextApi/Provider";
 import Provider2 from "./ContextApi/Provider2";
+import CustomHook from "./customHook/CustomHook";
 import CardInformation from "./InfoFiles/UserInfo";
 import CopyText from "./Portal/CopyText";
 import File1 from "./PropDrilling/File1";
@@ -55,6 +56,8 @@ const App = () => {
       <Focus></Focus>
       <hr />
       <TImer></TImer>
+      <hr />
+      <CustomHook></CustomHook>
       <Footer></Footer>
       <Greet />
     </div>
