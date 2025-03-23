@@ -18,6 +18,8 @@ import UseState from "./StatePrac/UseState";
 import Effect from "./useEffect/Effect";
 import MoneyReducer from "./useReducer/MoneyReducer";
 import Sample from "./useReducer/sample";
+import Focus from "./useRef/focus";
+import TImer from "./useRef/TImer";
 <link href="/src/index.css" rel="stylesheet"></link>;
 
 const App = () => {
@@ -49,6 +51,10 @@ const App = () => {
       <Sample></Sample>
       <hr />
       <MoneyReducer></MoneyReducer>
+      <hr />
+      <Focus></Focus>
+      <hr />
+      <TImer></TImer>
       <Footer></Footer>
       <Greet />
     </div>
