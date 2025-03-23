@@ -16,6 +16,8 @@ import Prac from "./StatePrac/Prac";
 import UltimatePrac from "./StatePrac/UltimatePrac";
 import UseState from "./StatePrac/UseState";
 import Effect from "./useEffect/Effect";
+import MoneyReducer from "./useReducer/MoneyReducer";
+import Sample from "./useReducer/sample";
 <link href="/src/index.css" rel="stylesheet"></link>;
 
 const App = () => {
@@ -43,6 +45,10 @@ const App = () => {
       <Provider></Provider>
       <hr />
       <Provider2></Provider2>
+      <hr />
+      <Sample></Sample>
+      <hr />
+      <MoneyReducer></MoneyReducer>
       <Footer></Footer>
       <Greet />
     </div>
