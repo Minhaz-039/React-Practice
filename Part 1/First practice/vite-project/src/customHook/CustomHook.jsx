@@ -8,8 +8,7 @@ const CustomHook = () => {
     <div>
       {data.map((item) => (
         <div key={item.name}>
-          <h1>{item.name}</h1>
-          <p>{item.age}</p>
+          <h4>{item.name}</h4>
         </div>
       ))}
     </div>
