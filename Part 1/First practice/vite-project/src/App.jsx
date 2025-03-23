@@ -17,6 +17,7 @@ import Prac from "./StatePrac/Prac";
 import UltimatePrac from "./StatePrac/UltimatePrac";
 import UseState from "./StatePrac/UseState";
 import Effect from "./useEffect/Effect";
+import UniqueID from "./useId/UniqueID";
 import MoneyReducer from "./useReducer/MoneyReducer";
 import Sample from "./useReducer/sample";
 import Focus from "./useRef/focus";
@@ -58,6 +59,9 @@ const App = () => {
       <TImer></TImer>
       <hr />
       <CustomHook></CustomHook>
+      <hr />
+      <UniqueID></UniqueID>
+      <hr />
       <Footer></Footer>
       <Greet />
     </div>
