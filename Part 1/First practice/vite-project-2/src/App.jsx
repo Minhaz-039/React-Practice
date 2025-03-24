@@ -1,4 +1,5 @@
 import React from "react";
+import Calculator from "./Calculator/Calculator";
 import Counter from "./Counter/Counter";
 import Meals from "./Meals/Meals";
 import Todo from "./Todo/Todo";
@@ -16,6 +17,7 @@ const App = () => {
       <Counter />
       <Todo />
       <Meals />
+      <Calculator />
     </div>
   );
 };
