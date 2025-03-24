@@ -31,6 +31,7 @@ const Todo = () => {
         borderRadius: "10px",
         color: "white",
         padding: "10px",
+        justifyContent: "center",
       }}
     >
       <div>
