@@ -12,7 +12,7 @@ const Calculator = () => {
 
   return (
     <form
-      className="calculator"
+      className="container"
       name="calc"
       style={{ width: "100%", padding: "10%" }}
       onSubmit={(e) => e.preventDefault()}
@@ -24,8 +24,8 @@ const Calculator = () => {
           marginBottom: "10px",
           border: "2px solid white",
           borderRadius: "10px",
-          backgroundColor: "white",
-          color: "black",
+          backgroundColor: "black",
+          color: "white",
         }}
       >
         {inputValue}
@@ -38,35 +38,36 @@ const Calculator = () => {
           gap: "10px",
         }}
       >
-        <button onClick={() => handle_Input("+")}>+</button>
-        <button onClick={() => handle_Input("-")}>-</button>
-        <button onClick={() => handle_Input("×")}>×</button>
-        <button onClick={() => handle_Input("÷")}>÷</button>
-
         <button onClick={() => handle_Input("7")}>7</button>
         <button onClick={() => handle_Input("8")}>8</button>
         <button onClick={() => handle_Input("9")}>9</button>
+        <button onClick={() => handle_Input("÷")}>÷</button>
         <button onClick={() => handle_Input("4")}>4</button>
         <button onClick={() => handle_Input("5")}>5</button>
         <button onClick={() => handle_Input("6")}>6</button>
+        <button onClick={() => handle_Input("×")}>×</button>
         <button onClick={() => handle_Input("1")}>1</button>
         <button onClick={() => handle_Input("2")}>2</button>
         <button onClick={() => handle_Input("3")}>3</button>
+        <button onClick={() => handle_Input("-")}>-</button>
         <button onClick={() => handle_Input("0")}>0</button>
-
         <button onClick={() => handle_Input(".")}>.</button>
-
-        {/* Clear button */}
-        <button className="all-clear" onClick={() => setInputValue("")}>
-          AC
-        </button>
-
         {/* Equals button */}
         <button
           className="equal-sign"
           onClick={() => setInputValue(eval(inputValue).toString())}
         >
           =
+        </button>
+        <button onClick={() => handle_Input("+")}>+</button>
+
+        {/* Clear button */}
+        <button
+          className="all-clear"
+          style={{ backgroundColor: "orange" }}
+          onClick={() => setInputValue("")}
+        >
+          AC
         </button>
       </div>
     </form>
