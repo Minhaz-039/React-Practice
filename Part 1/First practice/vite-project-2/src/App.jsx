@@ -3,6 +3,7 @@ import Calculator from "./Calculator/Calculator";
 import Counter from "./Counter/Counter";
 import HiddenSearchBar from "./HiddenSearchBar/HiddenSearchBar";
 import Meals from "./Meals/Meals";
+import Testimonial from "./Testimonial/Testimonial";
 import Todo from "./Todo/Todo";
 import ToggleBackgroundColor from "./TogglebackgroundColor/ToggleBackgroundColor";
 
@@ -22,6 +23,7 @@ const App = () => {
       <Calculator />
       <ToggleBackgroundColor />
       <HiddenSearchBar />
+      <Testimonial />
     </div>
   );
 };
