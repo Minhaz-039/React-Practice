@@ -1,4 +1,5 @@
 import React from "react";
+import Accordian from "./Accordian/Accordian";
 import Calculator from "./Calculator/Calculator";
 import Counter from "./Counter/Counter";
 import HiddenSearchBar from "./HiddenSearchBar/HiddenSearchBar";
@@ -24,6 +25,7 @@ const App = () => {
       <ToggleBackgroundColor />
       <HiddenSearchBar />
       <Testimonial />
+      <Accordian />
     </div>
   );
 };
