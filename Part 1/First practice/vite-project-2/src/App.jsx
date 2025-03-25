@@ -3,6 +3,7 @@ import Calculator from "./Calculator/Calculator";
 import Counter from "./Counter/Counter";
 import Meals from "./Meals/Meals";
 import Todo from "./Todo/Todo";
+import ToggleBackgroundColor from "./TogglebackgroundColor/ToggleBackgroundColor";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Todo />
       <Meals />
       <Calculator />
+      <ToggleBackgroundColor />
     </div>
   );
 };
